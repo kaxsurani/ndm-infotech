@@ -591,22 +591,12 @@ export default function Home() {
                 Reach out to us directly or visit our office.
               </p>
               <div className="mt-6 space-y-4">
-                <div className="flex items-center">
-                  <Mail className="h-6 w-6 text-blue-500" />
-                  <span className="ml-3 text-gray-500">
-                    info@ndminfotech.com
-                  </span>
-                </div>
-                <div className="flex items-center">
-                  <Phone className="h-6 w-6 text-blue-500" />
-                  <span className="ml-3 text-gray-500">+1 (555) 123-4567</span>
-                </div>
                 <div className="flex items-start">
                   <MapPin className="h-6 w-6 text-blue-500 mt-1" />
                   <span className="ml-3 text-gray-500">
-                    123 Tech Park, Suite 456
+                    312 W 2ND St,
                     <br />
-                    Silicon Valley, CA 94043
+                    Casper, WY,
                     <br />
                     United States
                   </span>
