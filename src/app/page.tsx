@@ -8,13 +8,12 @@ import {
   Monitor,
   Server,
   Code,
-  Mail,
-  Phone,
   MapPin,
   ArrowRight,
   Menu,
   X,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -199,10 +198,12 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img
+          <Image
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="/api/placeholder/800/600"
+            src="/images/profile2.jpg"
             alt="NDM Infotech team working"
+            width={300}
+            height={300}
           />
         </div>
       </div>
@@ -358,7 +359,7 @@ export default function Home() {
                       Client-Centric Approach
                     </h4>
                     <p className="mt-2 text-base text-gray-500">
-                      We prioritize our clients' needs and work closely with
+                      We prioritize our ${`clients'`} needs and work closely with
                       them to deliver solutions that exceed expectations.
                     </p>
                   </div>
@@ -420,9 +421,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600">
-                "NDM Infotech transformed our business operations with their
+                &quot;NDM Infotech transformed our business operations with their
                 custom software solution. Their team understood our requirements
-                perfectly and delivered beyond our expectations."
+                perfectly and delivered beyond our expectations.&quot;
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6 shadow-md">
@@ -435,9 +436,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600">
-                "Working with NDM Infotech has been a game-changer for our IT
+                &quot;Working with NDM Infotech has been a game-changer for our IT
                 infrastructure. Their expertise and professionalism have helped
-                us scale our operations efficiently."
+                us scale our operations efficiently.&quot;
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg p-6 shadow-md">
@@ -452,9 +453,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600">
-                "The web application developed by NDM Infotech has significantly
+                &quot;The web application developed by NDM Infotech has significantly
                 improved our customer engagement and sales. Their ongoing
-                support has been exceptional."
+                support has been exceptional.&quot;
               </p>
             </div>
           </div>
